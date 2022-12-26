@@ -1,0 +1,7 @@
+﻿Mode,Front/Rear,Comfort,ZeroG,MaxG,Comfort Sensitivity,Comfort G Rate Max,G Limit Threshold,Speed Factor,Fast Compression,Med Compression,Slow Compression,Slow Rebound,Med Rebound,Fast Rebound,Curb Factor,Brake Decay,Brake Threshold,Brake Min Speed
+Normal,Front,17.5,28.9,68.6,20,2.8,0.3,40,3.4,3.4,4.08,1.36,-3.4,-3.4,0,1500,35,5
+Normal,Rear,13.6,30.7,90.3,20,2.8,0.3,40,-2.39,-7.98,-7.98,0,10.37,14.36,0,1500,35,5
+Sport,Front,31.1,43.9,74.3,14,1.8,0.25,40,3.4,3.4,4.08,1.36,-3.4,-3.4,50,1500,35,5
+Sport,Rear,29,48.3,96,14,1.8,0.25,40,-2.39,-7.98,-7.98,0,10.37,14.36,50,1500,35,5
+Track,Fron,40.3,51.7,80.1,12,1.8,0.25,40,3.4,3.4,4.08,1.36,-3.4,-3.4,100,1500,35,5
+Track,Rear,43.2,56.3,100,12,1.8,0.25,40,-2.39,-7.98,-7.98,0,10.37,14.36,100,1500,35,5
