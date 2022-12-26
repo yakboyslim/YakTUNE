@@ -2,7 +2,7 @@
 ## What's it do?
 This program will open a tune saved in a .csv format which is simpler and easier to manage. It then converts that into a .PDTS file to be opened and loaded using the DSC Tuning Software.
 
-
+***
 ## How to use
 1. Change parameters in a properly formatted (yourtune).csv file.
 2. Run the YakTUNE.exe program.
@@ -12,6 +12,7 @@ This program will open a tune saved in a .csv format which is simpler and easier
 6. **Confirm the values of the tables.** *Currently an error is shown for Velocity Table 2, but it appears this loads correctly. A message box is supplied with the values to confirm*
 7. Edit the tune further, or write to the controller using DSC Tuning software.
 
+***
 ## What do all the parameters mean
 ### Mode and Front/Rear
 This is just the name of the mode and front or rear. It is important that these stay in order since it affects how the .pdts file is assembled.
@@ -40,6 +41,7 @@ Same as DSC Tuning software parameter
 ### Brake Min Speed
 Same as DSC Tuning software parameter
 
+***
 ## How to create your own "baseline" from an existing .PDTS tune
 
 UNDER CONSTRUCTION
