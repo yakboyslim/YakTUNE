@@ -44,13 +44,11 @@ Same as DSC Tuning software parameter
 ----
 ## How to create your own "baseline" from an existing .PDTS tune
 
-<figure class="video_container">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVNK8kJJ32X1ECDdvzpkramENS8g6g-6a5_5p2MjJt14Nr94Z_iSo9FJptn02rk8PYVwKmOTjnMxfQ/pubhtml?widget=true&amp;headers=false"></iframe>
-</figure>
-
-Enter your data into the input sheet of the above google sheets file. The output file will fill with the correct values to use for a near copy of this baseline. You can then copy paste the contents of the Output sheet to a csv file.
+Enter your data into the input sheet of the below google sheets file. The output sheet will fill with the correct values to use for a near copy of this baseline. You can then copy paste the contents of the Output sheet to a csv file.
 
 https://docs.google.com/spreadsheets/d/e/2PACX-1vQVNK8kJJ32X1ECDdvzpkramENS8g6g-6a5_5p2MjJt14Nr94Z_iSo9FJptn02rk8PYVwKmOTjnMxfQ/pubhtml
+
+*This file assumes that the G table goes to 100%. It also does not account for the "shape" of the G table. You will need to choose a curb factor, or mess with other parameters to replicate anything there.
 
 ## How to change more advanced tables, or use on cars other than VW
 
