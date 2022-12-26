@@ -1,10 +1,5 @@
 # YakTUNE
 ----
-
-- TOC
-{:toc}
-
-----
 ## What's it do?
 This program will open a tune saved in a .csv format which is simpler and easier to manage. It then converts that into a .PDTS file to be opened and loaded using the DSC Tuning Software.
 
@@ -52,6 +47,8 @@ Same as DSC Tuning software parameter
 <figure class="video_container">
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVNK8kJJ32X1ECDdvzpkramENS8g6g-6a5_5p2MjJt14Nr94Z_iSo9FJptn02rk8PYVwKmOTjnMxfQ/pubhtml?widget=true&amp;headers=false"></iframe>
 </figure>
+
+Enter your data into the input sheet of the above google sheets file. The output file will fill with the correct values to use for a near copy of this baseline. You can then copy paste the contents of the Output sheet to a csv file.
 
 https://docs.google.com/spreadsheets/d/e/2PACX-1vQVNK8kJJ32X1ECDdvzpkramENS8g6g-6a5_5p2MjJt14Nr94Z_iSo9FJptn02rk8PYVwKmOTjnMxfQ/pubhtml
 
