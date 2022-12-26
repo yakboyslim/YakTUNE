@@ -48,7 +48,7 @@ Enter your data into the input sheet of the below google sheets file. The output
 
 https://docs.google.com/spreadsheets/d/e/2PACX-1vQVNK8kJJ32X1ECDdvzpkramENS8g6g-6a5_5p2MjJt14Nr94Z_iSo9FJptn02rk8PYVwKmOTjnMxfQ/pubhtml
 
-*This file assumes that the G table goes to 100%. It also does not account for the "shape" of the G table. You will need to choose a curb factor, or mess with other parameters to replicate anything there.
+*This file assumes that the G table goes to 100%. It also does not account for the "shape" of the G table. You will need to choose a curb factor, or mess with other parameters to replicate anything there.*
 
 ## How to change more advanced tables, or use on cars other than VW
 
