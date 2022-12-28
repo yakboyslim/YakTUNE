@@ -22,8 +22,8 @@ shockHigh=settings.ShockHigh(1)
 dampercurr=table2array(setDamper)*(shockHigh-shockLow)/100;
 
 %% Calculate and apply offset to even rebound and compression sides of zero
-offset = (setDamper.SlowRebound+setDamper.SlowCompression)/2;
-dampercurr=dampercurr+offset;
+offset = (setDamper.SlowRebound+setDamper.SlowCompression)*(shockHigh-shockLow)/200;
+dampercurr=dampercurr-offset;
 setComfort=setComfort*(shockHigh-shockLow)/100+shockLow+offset;
 setZeroG=setZeroG*(shockHigh-shockLow)/100+shockLow+offset;
 setMaxG=setMaxG*(shockHigh-shockLow)/100+shockLow+offset;
