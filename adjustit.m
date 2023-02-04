@@ -44,7 +44,7 @@ if shockHigh>shockLow
     comfort=round(2*(setComfort-mincurr)./slope)/2;
     comfort(1:2)=max(comfort);
     comfort(comfort<1)=1;
-    comfort(comfort>15)=15;
+    comfort(comfort>20)=20;
     defaultrate=comfort(1);
     slope=(maxcurr-setComfort)./(100-comfort);
     mincurr=maxcurr-100*slope;

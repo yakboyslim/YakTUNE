@@ -1,9 +1,13 @@
-function tunes
+function tunes (BASELINE)
 close all
 
-%% Read TuneCSV
-[fileopen,pathopen]=uigetfile('*.csv','Select Tune CSV File')
-settings=readtable(fullfile(pathopen,fileopen))
+if exists(BASELINE)
+
+else
+
+    %% Read TuneCSV
+    [fileopen,pathopen]=uigetfile('*.csv','Select Tune CSV File')
+    settings=readtable(fullfile(pathopen,fileopen))
 
 %% Read AccelDat
 accelset=fileread(fullfile(getcurrentdir,"accel.dat"),Encoding='ISO-8859-1');
